@@ -1,0 +1,22 @@
+.paper {
+  background-color: #dcdcdc;
+  padding: 10px;
+  height: 300px;
+  width: 600px;
+}
+
+.sticker {
+  background-color: red;
+  padding: 10px 0px 30px 0px;
+}
+
+.stickerTitle {
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+}
+.stickerTitle h1 {
+}
+
+.stickerName {
+  background-color: white;
+}
