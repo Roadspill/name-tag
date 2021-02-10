@@ -4,20 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="#">
   <title>Name Tag</title>
 </head>
 <body>
-  <div class="paper">
+  <p class="centered-text">
+    <label>
+      Your Name:
+      <input type="text" id="name-input">
+    </label>
+    <button id="name-change-button">Change It</button>
+  </p>
+  <div class="paper centered-div">
     <div class="sticker">
       <div class="sticker-top">
         <h1>HELLO</h1>
         <h2>my name is</h2>
       </div>
-      <div class="sticker-middle"><p>Arnaud <span class="extra-bold">"Doug"</span> Ardans</p></div>
+      <div class="sticker-middle"><p id="name-display">Arnaud <span class="extra-bold">"Doug"</span> Ardans</p></div>
       <div class="sticker-bottom"></div>
   </div>
-  <script type="module" src="js/app.js"></script>
+  <script type="application/javascript" src="js/app.js"></script>
 </body>
 </html>
