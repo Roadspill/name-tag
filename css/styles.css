@@ -16,9 +16,9 @@
   height: 100%;
 }
 
-.stickerTop,
-.stickerMiddle,
-.stickerBottom {
+.sticker-top,
+.sticker-middle,
+.sticker-bottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@
   margin: 0;
 }
 
-.stickerTop {
+.sticker-top {
   background-color: red;
   border-radius: 10px 10px 0 0;
   color: white;
@@ -43,16 +43,16 @@
   align-self: auto;
 }
 
-.stickerTop h1 {
+.sticker-top h1 {
   font-weight: 900;
   font-size: 72px;
 }
 
-.stickerTop h2 {
+.sticker-top h2 {
   font-size: 36px;
 }
 
-.stickerMiddle {
+.sticker-middle {
   background-color: white;
   font: 48px "Brush Script MT", cursive;
   order: 0;
@@ -60,12 +60,12 @@
   align-self: auto;
 }
 
-.extraBold {
+.extra-bold {
   font-size: 60px;
   font-weight: 900;
 }
 
-.stickerBottom {
+.sticker-bottom {
   background-color: red;
   border-radius: 0 0 10px 10px;
   min-height: 10px;
